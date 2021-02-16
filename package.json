@@ -1,5 +1,5 @@
 {
-  "name": "redux-learn",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,21 +8,23 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
-    "react-scripts": "4.0.0",
+    "react-scripts": "4.0.2",
     "redux": "^4.0.5",
-    "typescript": "^4.0.3",
-    "web-vitals": "^0.2.4"
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server server.json -p 3333"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-redux": "^7.1.9"
+    "@types/react-redux": "^7.1.16",
+    "json-server": "^0.16.3"
   }
 }
